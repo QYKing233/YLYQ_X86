@@ -57,7 +57,6 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth=1 https://github.com/destan19/OpenAppFilter.git
 
 
-
 # Add luci-app-syncthing
 svn export https://github.com/kenzok8/small-package/trunk/luci-app-syncthing
 
