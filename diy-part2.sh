@@ -33,11 +33,6 @@ sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generat
 sed -i 's/OpenWrt/YLYQ/g' package/base-files/files/bin/config_generate
 
 
-# Add date version
-export DATE_VERSION=$(date -d "$(rdate -n -4 -p pool.ntp.org)" +'%Y-%m-%d')
-sed -i "s/%C/%C (${DATE_VERSION})/g" package/base-files/files/etc/openwrt_release
-
-
 # Modify default shell to zsh
 sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 
