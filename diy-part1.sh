@@ -24,12 +24,11 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages.git
 
 
 # Add luci-app-ssr-plus
-git clone --depth=1 https://github.com/fw876/helloworld.git
+git clone -b main --depth=1 https://github.com/fw876/helloworld.git
 
 
 # Add luci-app-vssr
-git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
-git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr.git
+svn export https://github.com/ysx88/openwrt-packages/trunk/luci-app-vssr
 
 
 # Add OpenClash
@@ -58,12 +57,11 @@ git clone --depth=1 https://github.com/destan19/OpenAppFilter.git
 
 
 # Add luci-app-syncthing
-svn export https://github.com/kenzok8/small-package/trunk/luci-app-syncthing
+svn export https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-syncthing
 
 
 # Add luci-app-filebrowser
-svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-filebrowser
-svn export https://github.com/kenzok8/openwrt-packages/trunk/filebrowser
+git clone -b 18.06 https://github.com/xiaozhuai/luci-app-filebrowser.git
 
 
 # Add luci-app-fileassistant
