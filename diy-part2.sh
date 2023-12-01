@@ -16,7 +16,7 @@ rm -rf feeds/luci/applications/luci-app-argon-config
 
 
 # Modify golang_version for luci-app-Alist
-sudo apt install libfuse-dev
+sudo apt-get install libfuse-dev
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
 
