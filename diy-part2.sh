@@ -39,7 +39,7 @@ sed '/Must an IPv4 address/d' ./feeds/luci/applications/luci-app-nps/luasrc/mode
 
 
 # 调整 ShadowsocksR Plus+ 的wireguard本地地址数据类型为 string
-sed -i '808 s/cidr/string/' ./lede/package/community/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua
+sed -i '808 s/cidr/string/' ./package/community/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua
 
 ########################    调整完成    ########################
 
