@@ -3,28 +3,28 @@
 ########################   调整菜单  ###########################
 
 # 调整 luci-app-filebrowser 到 VPN 菜单
-sed -i s'/services/nas/'g ./package/community/luci-app-filebrowser/luasrc/controller/*.lua
-sed -i s'/services/nas/'g ./package/community/luci-app-filebrowser/luasrc/view/filebrowser/*.htm
-sed -i s'/services/nas/'g ./package/community/luci-app-filebrowser/luasrc/model/cbi/filebrowser/*.lua
+sed -i 's/services/nas/g' ./package/community/luci-app-filebrowser/luasrc/controller/*.lua
+sed -i 's/services/nas/g' ./package/community/luci-app-filebrowser/luasrc/view/filebrowser/*.htm
+sed -i 's/services/nas/g' ./package/community/luci-app-filebrowser/luasrc/model/cbi/filebrowser/*.lua
 
 
 # 调整 luci-app-gost 到 VPN 菜单
-sed -i s'/services/vpn/'g ./package/community/luci-app-gost/luasrc/controller/*.lua
-sed -i s'/services/vpn/'g ./package/community/luci-app-gost/luasrc/model/cbi/*.lua
-sed -i s'/services/vpn/'g ./package/community/luci-app-gost/luasrc/view/gost/*.htm
+sed -i 's/services/vpn/g' ./package/community/luci-app-gost/luasrc/controller/*.lua
+sed -i 's/services/vpn/g' ./package/community/luci-app-gost/luasrc/model/cbi/*.lua
+sed -i 's/services/vpn/g' ./package/community/luci-app-gost/luasrc/view/gost/*.htm
 
 
 # 调整 luci-app-v2ray-server 到 VPN 菜单
-sed -i s'/services/vpn/'g ./feeds/luci/applications/luci-app-v2ray-server/luasrc/controller/*.lua
-sed -i s'/services/vpn/'g ./feeds/luci/applications/luci-app-v2ray-server/luasrc/model/cbi/v2ray_server/api/*.lua
-sed -i s'/services/vpn/'g ./feeds/luci/applications/luci-app-v2ray-server/luasrc/model/cbi/v2ray_server/*.lua
-sed -i s'/services/vpn/'g ./feeds/luci/applications/luci-app-v2ray-server/luasrc/view/v2ray_server/*.htm
+sed -i 's/services/vpn/g' ./feeds/luci/applications/luci-app-v2ray-server/luasrc/controller/*.lua
+sed -i 's/services/vpn/g' ./feeds/luci/applications/luci-app-v2ray-server/luasrc/model/cbi/v2ray_server/api/*.lua
+sed -i 's/services/vpn/g' ./feeds/luci/applications/luci-app-v2ray-server/luasrc/model/cbi/v2ray_server/*.lua
+sed -i 's/services/vpn/g' ./feeds/luci/applications/luci-app-v2ray-server/luasrc/view/v2ray_server/*.htm
 
 
 # 调整 luci-app-nft-qos 到 网络 菜单
-sed -i s'/services/network/'g ./feeds/luci/applications/luci-app-nft-qos/luasrc/controller/*.lua
-sed -i s'/services/network/'g ./feeds/luci/applications/luci-app-nft-qos/luasrc/model/cbi/nft-qos/*.lua
-sed -i s'/services/network/'g ./feeds/luci/applications/luci-app-nft-qos/luasrc/view/nft-qos/*.htm
+sed -i 's/services/network/g' ./feeds/luci/applications/luci-app-nft-qos/luasrc/controller/*.lua
+sed -i 's/services/network/g' ./feeds/luci/applications/luci-app-nft-qos/luasrc/model/cbi/nft-qos/*.lua
+sed -i 's/services/network/g' ./feeds/luci/applications/luci-app-nft-qos/luasrc/view/nft-qos/*.htm
 
 ########################   调整完成  ###########################
 
@@ -34,12 +34,12 @@ sed -i s'/services/network/'g ./feeds/luci/applications/luci-app-nft-qos/luasrc/
 ########################   调整数据类型    ######################
 
 # 调整 Nps 内网穿透 服务器地址数据类型为 string
-sed -i s'/ipaddr/string/'g ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
+sed -i 's/ipaddr/string/g' ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
 sed '/Must an IPv4 address/d' ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
 
 
 # 调整 ShadowsocksR Plus+ 的wireguard本地地址数据类型为 string
-sed -i '808 s/cidr/string/' ./package/community/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua
+sed -i '808 s/cidr/string/g' ./package/community/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua
 
 ########################    调整完成    ########################
 
@@ -82,7 +82,7 @@ sed -i 's/os.date()/os.date("%a %Y-%m-%d %H:%M:%S")/g' package/lean/autocore/fil
 
 # 添加编译日期
 date_version=$(date +"%Y-%m-%d")
-sed -i "56 s/OpenWrt/OpenWrt ($date_version) Build_By : YLYQ/" ./package/lean/default-settings/files/zzz-default-settings
+sed -i "56 s/OpenWrt/OpenWrt ($date_version) Build_By : YLYQ/g" ./package/lean/default-settings/files/zzz-default-settings
 
 
 # 调整默认 shell 为 zsh
