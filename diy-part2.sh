@@ -103,6 +103,18 @@ popd
 ##############################    调整完成    ################################
 
 
+
+# 添加Openclash核心文件
+mkdir -p package/files/etc/openclash/core
+pushd package/files/etc/openclash/core
+wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash
+wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash_meta
+wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash_tun
+chmod 0775 ./*
+popd
+
+
+
 ## 安装 oh-my-zsh
 mkdir -p files/root
 pushd files/root
