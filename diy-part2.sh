@@ -2,10 +2,16 @@
 
 ########################   调整菜单  ###########################
 
-# 调整 luci-app-filebrowser 到 VPN 菜单
+# 调整 luci-app-filebrowser 到 NAS 菜单
 sed -i 's/services/nas/g' ./package/community/luci-app-filebrowser/luasrc/controller/*.lua
 sed -i 's/services/nas/g' ./package/community/luci-app-filebrowser/luasrc/view/filebrowser/*.htm
 sed -i 's/services/nas/g' ./package/community/luci-app-filebrowser/luasrc/model/cbi/filebrowser/*.lua
+
+
+# 调整 luci-app-aliyundrive-fuse 到 NAS 菜单
+sed -i 's/services/nas/g' ./feeds/luci/applications/luci-app-aliyundrive-fuse/luasrc/controller/*.lua
+sed -i 's/services/nas/g' ./feeds/luci/applications/luci-app-aliyundrive-fuse/luasrc/view/aliyundrive-fuse/*.htm
+sed -i 's/services/nas/g' ./feeds/luci/applications/luci-app-aliyundrive-fuse/luasrc/model/cbi/aliyundrive-fuse/*.lua
 
 
 # 调整 luci-app-gost 到 VPN 菜单
@@ -105,8 +111,8 @@ popd
 
 
 # 添加 Openclash核心文件
-mkdir -p package/files/etc/openclash/core
-pushd package/files/etc/openclash/core
+mkdir -p files/etc/openclash/core
+pushd files/etc/openclash/core
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash_meta
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash_tun
