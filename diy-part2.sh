@@ -104,7 +104,7 @@ popd
 
 
 
-# 添加Openclash核心文件
+# 添加 Openclash核心文件
 mkdir -p package/files/etc/openclash/core
 pushd package/files/etc/openclash/core
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash
