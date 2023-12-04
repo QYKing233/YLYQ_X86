@@ -35,7 +35,7 @@ sed -i 's/services/network/g' ./feeds/luci/applications/luci-app-nft-qos/luasrc/
 
 # 调整 Nps 内网穿透 服务器地址数据类型为 string
 sed -i 's/ipaddr/string/g' ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
-sed '/Must an IPv4 address/d' ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
+sed -i '/Must an IPv4 address/d' ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
 
 
 # 调整 ShadowsocksR Plus+ 的wireguard本地地址数据类型为 string
