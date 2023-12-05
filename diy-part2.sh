@@ -116,7 +116,7 @@ pushd files/etc/openclash/core
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash_meta
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/clash_tun
-chmod 0775 ./*
+chmod 0755 ./*
 popd
 
 
