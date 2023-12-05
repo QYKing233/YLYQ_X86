@@ -7,7 +7,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 概览 | Web管理 | PassWall | 概览 | 文件助手 | SSR MuDB 服务器 | 接口 | 显示 |
 | 防火墙 | 系统 | Hellow Word | 容器 | 存储同步 | N2N VPN | DHCP/DNS | 配置 |
-| 路由表 | 管理权 |  | 镜像 | Alist 文件列表 | IPSec VPN 服务器 | 主机名 | 备份 |
+| 路由表 | 管理权 | Nps 内网穿透 | 镜像 | Alist 文件列表 | IPSec VPN 服务器 | 主机名 | 备份 |
 | 系统日志 | 终端均衡器 | ADGuard Home | 网络 | qBittorrent | SoftEther VPN 服务器 | IP/MAC 绑定 | 实时流量监测 |
 | 内核日志 | TTYD终端 | ShadowSocksR Plus+ | 存储卷 | USB 打印服务器 | PPTP VPN 服务器 | 静态路由 |  |
 | 系统进程 | 软件包 | 应用过滤 | 事件 | 硬盘休眠 | ZeroTier | 防火墙 |  | QoS Nftables |
@@ -29,7 +29,7 @@
 |  |  | Frp 内网穿透 |  |  |  |  |  |
 |  |  | uHTTPd |  |  |  |  |  |
 |  |  | udpxy |  |  |  |  |  |
-|  |  | Nps 内网穿透 |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 
 ## Credits
