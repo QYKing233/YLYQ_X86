@@ -1,5 +1,5 @@
 **此固件为自用 不保证稳定性**</br>
-**自带Openclash核心文件**
+**自带Openclash核心文件**</br>
 **由于要编译node，因此Action的6小时不够用，不要Fork**</br>
 **支持PCIE与USB的MT7921无线网卡**</br>
 **LAN地址：192.168.5.1**</br>
