@@ -11,8 +11,8 @@
 | 系统日志 | 终端均衡器 | ADGuard Home | 网络 | qBittorrent | SoftEther VPN 服务器 | IP/MAC 绑定 | 实时流量监测 |
 | 内核日志 | TTYD终端 | ShadowSocksR Plus+ | 存储卷 | USB 打印服务器 | PPTP VPN 服务器 | 静态路由 |  |
 | 系统进程 | 软件包 | 应用过滤 | 事件 | 硬盘休眠 | ZeroTier | 防火墙 |  | QoS Nftables |
-| 实时信息 | 启动项 | BearDropper | 配置 | FTP 服务器 |  | 诊断 |  |
-| 实时监控 | 计划任务 | MosDNS |  | Aria2 配置 |  | Socat |  |
+| 实时信息 | 启动项 | BearDropper | 配置 | FTP 服务器 | V2ray服务器 | 诊断 |  |
+| 实时监控 | 计划任务 | MosDNS |  | Aria2 配置 | Gost | Socat |  |
 | WireGuard 状态 | 挂载点 | 全能推送 |  | miniDLAN |  | Turbo ACC 网络加速 |  |
 | Online User | 磁盘管理 | 上网时间控制 |  | 文件管理器 |  | 负载均衡 |  |
 | 负载均衡 | 备份/升级 | 解锁网易云灰色歌曲 |  | 网络共享 |  |  |  |
@@ -22,15 +22,14 @@
 |  | Argon主题设置 | WatchCat |  |  |  |  |  |
 |  | Design主题设置 | MWAN3 分流助手 |  |  |  |  |  |
 |  | 重启 | 网络唤醒 |  |  |  |  |  |
-|  |  | Frps |  |  |  |  |  |
+|  | 关机 | Frps |  |  |  |  |  |
 |  |  | UPnP |  |  |  |  |  |
 |  |  | Tinyproxy |  |  |  |  |  |
 |  |  | KMS 服务器 |  |  |  |  |  |
 |  |  | Frp 内网穿透 |  |  |  |  |  |
 |  |  | uHTTPd |  |  |  |  |  |
 |  |  | udpxy |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
+
 
 ## Credits
 
