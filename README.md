@@ -15,7 +15,7 @@
 | 实时监控 | 计划任务 | MosDNS |  | Aria2 配置 | Gost | Socat |  |
 | WireGuard 状态 | 挂载点 | 全能推送 |  | miniDLAN |  | Turbo ACC 网络加速 |  |
 | Online User | 磁盘管理 | 上网时间控制 |  | 文件管理器 |  | 负载均衡 |  |
-| 负载均衡 | 备份/升级 | 解锁网易云灰色歌曲 |  | 网络共享 |  |  |  |
+| 负载均衡 | 备份/升级 | 解锁网易云灰色歌曲 |  | 网络共享 |  | QoS Nftables 版 |  |
 | 释放内存 | 自定义命令 | OpenClash |  | MJPG-streamer |  |  |  |
 |  | 定时重启 | DDNS-GO |  | Rclone |  |  |  |
 |  | 文件传输 | SmartDNS |  | 阿里云盘 FUSE |  |  |  |
