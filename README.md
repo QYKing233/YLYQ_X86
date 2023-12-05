@@ -1,4 +1,6 @@
 **此固件为自用 不保证稳定性**</br>
+**自带Openclash核心文件**
+**由于要编译node，因此Action的6小时不够用，不要Fork**</br>
 **支持PCIE与USB的MT7921无线网卡**</br>
 **LAN地址：192.168.5.1**</br>
 **默认密码：password**</br>
@@ -19,7 +21,7 @@
 | 释放内存 | 自定义命令 | OpenClash |  | MJPG-streamer |  |  |  |
 |  | 定时重启 | DDNS-GO |  | Rclone |  |  |  |
 |  | 文件传输 | SmartDNS |  | 阿里云盘 FUSE |  |  |  |
-|  | Argon主题设置 | WatchCat |  |  |  |  |  |
+|  | Argon主题设置 | WatchCat |  | Syncthiing |  |  |  |
 |  | Design主题设置 | MWAN3 分流助手 |  |  |  |  |  |
 |  | 重启 | 网络唤醒 |  |  |  |  |  |
 |  | 关机 | Frps |  |  |  |  |  |
