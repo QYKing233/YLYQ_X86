@@ -7,7 +7,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 概览 | Web管理 | PassWall | 概览 | 文件助手 | SSR MuDB 服务器 | 接口 | 显示 |
 | 防火墙 | 系统 | Hellow Word | 容器 | 存储同步 | N2N VPN | DHCP/DNS | 配置 |
-| 路由表 | 管理权 | 阿里云盘 FUSE | 镜像 | Alist 文件列表 | IPSec VPN 服务器 | 主机名 | 备份 |
+| 路由表 | 管理权 |  | 镜像 | Alist 文件列表 | IPSec VPN 服务器 | 主机名 | 备份 |
 | 系统日志 | 终端均衡器 | ADGuard Home | 网络 | qBittorrent | SoftEther VPN 服务器 | IP/MAC 绑定 | 实时流量监测 |
 | 内核日志 | TTYD终端 | ShadowSocksR Plus+ | 存储卷 | USB 打印服务器 | PPTP VPN 服务器 | 静态路由 |  |
 | 系统进程 | 软件包 | 应用过滤 | 事件 | 硬盘休眠 | ZeroTier | 防火墙 |  | QoS Nftables |
@@ -17,10 +17,10 @@
 | Online User | 磁盘管理 | 上网时间控制 |  | 文件管理器 |  | 负载均衡 |  |
 | 负载均衡 | 备份/升级 | 解锁网易云灰色歌曲 |  | 网络共享 |  |  |  |
 | 释放内存 | 自定义命令 | OpenClash |  | MJPG-streamer |  |  |  |
-|  | 定时重启 | 动态 DNS |  | Rclone |  |  |  |
-|  | 文件传输 | SmartDNS |  |  |  |  |  |
-|  | Argon主题设置 |  |  |  |  |  |  |
-|  | Design主题设置 | WatchCat |  |  |  |  |  |
+|  | 定时重启 | DDNS-GO |  | Rclone |  |  |  |
+|  | 文件传输 | SmartDNS |  | 阿里云盘 FUSE |  |  |  |
+|  | Argon主题设置 | WatchCat |  |  |  |  |  |
+|  | Design主题设置 | MWAN3 分流助手 |  |  |  |  |  |
 |  | 重启 | 网络唤醒 |  |  |  |  |  |
 |  |  | Frps |  |  |  |  |  |
 |  |  | UPnP |  |  |  |  |  |
@@ -30,7 +30,7 @@
 |  |  | uHTTPd |  |  |  |  |  |
 |  |  | udpxy |  |  |  |  |  |
 |  |  | Nps 内网穿透 |  |  |  |  |  |
-|  |  | MWAN3 分流助手 |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
 
 ## Credits
 
