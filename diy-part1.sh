@@ -23,8 +23,8 @@ git clone -b main --depth=1 https://github.com/fw876/helloworld.git
 
 
 # 添加 luci-app-vssr
-svn export https://github.com/ysx88/openwrt-packages/trunk/luci-app-vssr
-svn export https://github.com/ysx88/openwrt-packages/trunk/lua-maxminddb
+svn export https://github.com/haiibo/openwrt-packages/trunk/luci-app-vssr
+svn export https://github.com/haiibo/openwrt-packages/trunk/lua-maxminddb
 
 
 # 添加 OpenClash
