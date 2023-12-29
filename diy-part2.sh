@@ -1,6 +1,6 @@
 #!/bin/bash
 
-########################   调整菜单  ###########################
+### 调整菜单
 
 # 调整 luci-app-filebrowser 到 NAS 菜单
 sed -i 's/services/nas/g' ./package/community/luci-app-filebrowser/luasrc/controller/*.lua
@@ -32,12 +32,12 @@ sed -i 's/services/network/g' ./feeds/luci/applications/luci-app-nft-qos/luasrc/
 sed -i 's/services/network/g' ./feeds/luci/applications/luci-app-nft-qos/luasrc/model/cbi/nft-qos/*.lua
 sed -i 's/services/network/g' ./feeds/luci/applications/luci-app-nft-qos/luasrc/view/nft-qos/*.htm
 
-########################   调整完成  ###########################
+### 调整菜单完成
 
 
 
 
-########################   调整数据类型    ######################
+### 调整数据类型
 
 # 调整 Nps 内网穿透 服务器地址数据类型为 string
 sed -i 's/ipaddr/string/g' ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
@@ -47,9 +47,12 @@ sed -i '/Must an IPv4 address/d' ./feeds/luci/applications/luci-app-nps/luasrc/m
 # 调整 ShadowsocksR Plus+ 的wireguard本地地址数据类型为 string
 sed -i '808 s/cidr/string/g' ./package/community/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua
 
-########################    调整完成    ########################
+### 调整数据类型完成
 
 
+
+
+### 调整OpenWRT配置
 
 # 调整 luci-app-syncthing 的 Makefile 文件中 include 的路径
 sed -i 's/..\/..\/luci.mk/$(TOPDIR)\/feeds\/luci\/luci.mk/g' ./package/community/luci-app-syncthing/Makefile
@@ -66,15 +69,15 @@ rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
 
 
-
-
-#######################    调整OpenWRT配置    ############################
-
 # 调整 luci-theme-argon 的背景图片 
 pushd package/community/luci-theme-argon/htdocs/luci-static/argon/img
 rm -rf ./bg1.jpg
 wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/bg1.jpg
 popd
+
+
+# 调整主题为黑暗模式
+sed -i 's/normal/dark/g' ./package/community/luci-app-argon-config/root/etc/config/argon
 
 
 # 调整默认 IP 与 Hostname
@@ -106,7 +109,8 @@ wget https://raw.githubusercontent.com/QYKing233/YLYQ_X86/main/data/banner
 popd
 
 
-##############################    调整完成    ################################
+### 调整OpenWRT配置完成
+
 
 
 
