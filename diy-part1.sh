@@ -1,6 +1,6 @@
 #!/bin/bash
 
-######################  添加自定义插件  #########################
+### 添加自定义插件
 
 # 创建community目录
 mkdir -p package/community
@@ -90,4 +90,4 @@ svn export https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic/b
 
 
 popd
-########################   添加完成  ###########################
+### 添加完成
