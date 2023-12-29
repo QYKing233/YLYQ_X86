@@ -44,7 +44,7 @@ sed -i 's/ipaddr/string/g' ./feeds/luci/applications/luci-app-nps/luasrc/model/c
 sed -i '/Must an IPv4 address/d' ./feeds/luci/applications/luci-app-nps/luasrc/model/cbi/nps.lua
 
 
-# 调整 ShadowsocksR Plus+ 的wireguard本地地址数据类型为 string
+# 调整 ShadowsocksR Plus+ 的 wireguard 本地地址数据类型为 string
 sed -i '808 s/cidr/string/g' ./package/community/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua
 
 ### 调整数据类型完成
